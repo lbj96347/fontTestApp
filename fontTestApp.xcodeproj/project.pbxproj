@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662DB1E81989EC0A005336B7 /* osaka.unicode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 662DB1E71989EBEB005336B7 /* osaka.unicode.ttf */; };
 		6653CE921919E779009EA17E /* FZZJ-DHTMBFONT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C4C59B1919E6B400D9EFF1 /* FZZJ-DHTMBFONT.ttf */; };
 		6653CE961919EE5E009EA17E /* SentyTEA-Basic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6653CE951919EE56009EA17E /* SentyTEA-Basic.ttf */; };
+		6683CE751946F70F0044203E /* KozMinPr6N-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6683CE741946F7010044203E /* KozMinPr6N-Regular.otf */; };
+		668CC235191CD9F7004CCC57 /* STHeiti-Medium.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 668CC234191CD9DA004CCC57 /* STHeiti-Medium.ttc */; };
+		668CC237191CDA39004CCC57 /* DFPShaoNvW5-GB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668CC236191CDA33004CCC57 /* DFPShaoNvW5-GB.ttf */; };
 		66C4C55B1919E0B200D9EFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C4C55A1919E0B200D9EFF1 /* Foundation.framework */; };
 		66C4C55D1919E0B200D9EFF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C4C55C1919E0B200D9EFF1 /* CoreGraphics.framework */; };
 		66C4C55F1919E0B200D9EFF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C4C55E1919E0B200D9EFF1 /* UIKit.framework */; };
@@ -41,7 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662DB1E71989EBEB005336B7 /* osaka.unicode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = osaka.unicode.ttf; sourceTree = "<group>"; };
 		6653CE951919EE56009EA17E /* SentyTEA-Basic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SentyTEA-Basic.ttf"; sourceTree = "<group>"; };
+		6683CE741946F7010044203E /* KozMinPr6N-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozMinPr6N-Regular.otf"; sourceTree = "<group>"; };
+		668CC234191CD9DA004CCC57 /* STHeiti-Medium.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti-Medium.ttc"; sourceTree = "<group>"; };
+		668CC236191CDA33004CCC57 /* DFPShaoNvW5-GB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DFPShaoNvW5-GB.ttf"; sourceTree = "<group>"; };
 		66C4C5571919E0B200D9EFF1 /* fontTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fontTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C4C55A1919E0B200D9EFF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66C4C55C1919E0B200D9EFF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +180,10 @@
 		66C4C58F1919E0C600D9EFF1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				662DB1E71989EBEB005336B7 /* osaka.unicode.ttf */,
+				6683CE741946F7010044203E /* KozMinPr6N-Regular.otf */,
+				668CC236191CDA33004CCC57 /* DFPShaoNvW5-GB.ttf */,
+				668CC234191CD9DA004CCC57 /* STHeiti-Medium.ttc */,
 				6653CE951919EE56009EA17E /* SentyTEA-Basic.ttf */,
 				66C4C59B1919E6B400D9EFF1 /* FZZJ-DHTMBFONT.ttf */,
 				66C4C5901919E0D000D9EFF1 /* Lantinghei_0.ttf */,
@@ -257,6 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662DB1E81989EC0A005336B7 /* osaka.unicode.ttf in Resources */,
+				6683CE751946F70F0044203E /* KozMinPr6N-Regular.otf in Resources */,
+				668CC237191CDA39004CCC57 /* DFPShaoNvW5-GB.ttf in Resources */,
+				668CC235191CD9F7004CCC57 /* STHeiti-Medium.ttc in Resources */,
 				6653CE961919EE5E009EA17E /* SentyTEA-Basic.ttf in Resources */,
 				6653CE921919E779009EA17E /* FZZJ-DHTMBFONT.ttf in Resources */,
 				66C4C5981919E60E00D9EFF1 /* Lantinghei_0.ttf in Resources */,

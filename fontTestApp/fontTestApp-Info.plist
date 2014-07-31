@@ -31,6 +31,9 @@
 		<string>Lantinghei_0.ttf</string>
 		<string>FZZJ-DHTMBFONT.ttf</string>
 		<string>SentyTEA-Basic.ttf</string>
+		<string>STHeiti-Medium.ttc</string>
+		<string>DFPShaoNvW5-GB.ttf</string>
+		<string>osaka.unicode.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
