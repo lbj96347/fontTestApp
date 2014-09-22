@@ -59,6 +59,22 @@
     
     NSLog(@"print font names %@" , self.fontNames );
     
+    NSString * testText = @"好物";
+    
+    
+    NSLog(@"好物精选 code : %@", [self EncodeGB2312Str:testText ]);
+    
+}
+
+
+#pragma mark -
+#pragma mark Encode Chinese to GB2312 in URL
+-(NSString *)EncodeGB2312Str:(NSString *)encodeStr
+{
+	CFStringRef nonAlphaNumValidChars = CFSTR("![        DISCUZ_CODE_1        ]\'92()*+,-./:;=?@_~");
+	NSString *preprocessedString = (NSString *)CFBridgingRelease(CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault, (CFStringRef)encodeStr, CFSTR(""), kCFStringEncodingGB_18030_2000));
+	NSString *newStr = (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,(CFStringRef)preprocessedString,NULL,nonAlphaNumValidChars,kCFStringEncodingGB_18030_2000));
+    return newStr;
 }
 
 #pragma mark - tableView Datasource 
@@ -80,7 +96,7 @@
                                   reuseIdentifier:CellIdentifier];
     }
     cell.textLabel.font = [UIFont fontWithName:[self.fontNames objectAtIndex:indexPath.row] size:14.0f];
-    cell.textLabel.text = [NSString stringWithFormat:@"测试文字 %d ，字体是：%@",indexPath.row , [self.fontNames objectAtIndex:indexPath.row] ];
+    cell.textLabel.text = [NSString stringWithFormat:@"测试文字 %ld ，字体是：%@",(long)indexPath.row , [self.fontNames objectAtIndex:indexPath.row] ];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     return cell;
 }
